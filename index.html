@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>reehouse Logo in three.js</title>
+  <title>eehouse Logo in three.js</title>
   <meta charset="utf-8">
 </head>
 <body style="margin: 0;">
@@ -54,7 +54,7 @@
 
       // Load in the mesh and add it to the scene.
       var loader = new THREE.JSONLoader();
-      loader.load( "https://github.com/dannyr6/portraitinteractive/blob/gh-pages/face.json", function(geometry){
+      loader.load( "https://dannyr6.github.io/portraitinteractive/blob/gh-pages/face.json", function(geometry){
         var material = new THREE.MeshLambertMaterial({color: 0x55B663});
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
