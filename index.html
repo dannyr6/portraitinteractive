@@ -54,7 +54,7 @@
 
     // Load in the mesh and add it to the scene.
       var loader = new THREE.JSONLoader();
-      loader.load( "/portraitinteractive/face.json", function(geometry){
+      loader.load( "https://github.com/dannyr6/portraitinteractive/blob/gh-pages/face.json", function(geometry){
         var material = new THREE.MeshLambertMaterial({color: 0xffffff});
         mesh = new THREE.Mesh(geometry, material);
         scene.add(mesh);
